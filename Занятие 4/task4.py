@@ -1,5 +1,7 @@
-a = 15
-b = 6
-if a <= b:
-    for i in range(a,b+1):
-        print(i)
+a = 12
+b = 62
+def zzz (x,y):
+    if x <= y:
+        for i in range(x,y+1):
+            print(i)
+zzz(a,b)
