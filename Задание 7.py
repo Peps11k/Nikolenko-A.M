@@ -5,11 +5,9 @@ def zzz(a):
         if a[i] < 0 and a[i+1] < 0:
             print(a[i],a[i+1])
 def непридумалназвание (b):
-    B = []
-    for i in range(0,len(b)):
-        if B.count(b[i]) < 1:
-            B.append(b[i])
-    print(B)
+    b = set(b)
+    b = list(b)
+    print(b)
 print(A)
 непридумалназвание(A)
 zzz(A)
